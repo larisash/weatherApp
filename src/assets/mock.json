@@ -1,0 +1,498 @@
+{
+  "forcast_five_days_response": {
+    "Headline": {
+      "EffectiveDate": "2019-12-02T01:00:00+07:00",
+      "EffectiveEpochDate": 1575223200,
+      "Severity": 4,
+      "Text": "Showers and thunderstorms around late Sunday night through Tuesday afternoon",
+      "Category": "thunderstorm",
+      "EndDate": "2019-12-03T19:00:00+07:00",
+      "EndEpochDate": 1575374400,
+      "MobileLink": "http://m.accuweather.com/en/id/telanaipura/3431644/extended-weather-forecast/3431644?lang=en-us",
+      "Link": "http://www.accuweather.com/en/id/telanaipura/3431644/daily-weather-forecast/3431644?lang=en-us"
+    },
+    "DailyForecasts": [
+      {
+        "Date": "2019-11-29T07:00:00+07:00",
+        "EpochDate": 1574985600,
+        "Temperature": {
+          "Minimum": {
+            "Value": 76,
+            "Unit": "F",
+            "UnitType": 18
+          },
+          "Maximum": {
+            "Value": 94,
+            "Unit": "F",
+            "UnitType": 18
+          }
+        },
+        "Day": {
+          "Icon": 15,
+          "IconPhrase": "Thunderstorms",
+          "HasPrecipitation": true,
+          "PrecipitationType": "Rain",
+          "PrecipitationIntensity": "Light"
+        },
+        "Night": {
+          "Icon": 38,
+          "IconPhrase": "Mostly cloudy",
+          "HasPrecipitation": false
+        },
+        "Sources": ["AccuWeather"],
+        "MobileLink": "http://m.accuweather.com/en/id/telanaipura/3431644/daily-weather-forecast/3431644?day=1&lang=en-us",
+        "Link": "http://www.accuweather.com/en/id/telanaipura/3431644/daily-weather-forecast/3431644?day=1&lang=en-us"
+      },
+      {
+        "Date": "2019-11-30T07:00:00+07:00",
+        "EpochDate": 1575072000,
+        "Temperature": {
+          "Minimum": {
+            "Value": 75,
+            "Unit": "F",
+            "UnitType": 18
+          },
+          "Maximum": {
+            "Value": 93,
+            "Unit": "F",
+            "UnitType": 18
+          }
+        },
+        "Day": {
+          "Icon": 17,
+          "IconPhrase": "Partly sunny w/ t-storms",
+          "HasPrecipitation": true,
+          "PrecipitationType": "Rain",
+          "PrecipitationIntensity": "Light"
+        },
+        "Night": {
+          "Icon": 40,
+          "IconPhrase": "Mostly cloudy w/ showers",
+          "HasPrecipitation": true,
+          "PrecipitationType": "Rain",
+          "PrecipitationIntensity": "Light"
+        },
+        "Sources": ["AccuWeather"],
+        "MobileLink": "http://m.accuweather.com/en/id/telanaipura/3431644/daily-weather-forecast/3431644?day=2&lang=en-us",
+        "Link": "http://www.accuweather.com/en/id/telanaipura/3431644/daily-weather-forecast/3431644?day=2&lang=en-us"
+      },
+      {
+        "Date": "2019-12-01T07:00:00+07:00",
+        "EpochDate": 1575158400,
+        "Temperature": {
+          "Minimum": {
+            "Value": 75,
+            "Unit": "F",
+            "UnitType": 18
+          },
+          "Maximum": {
+            "Value": 93,
+            "Unit": "F",
+            "UnitType": 18
+          }
+        },
+        "Day": {
+          "Icon": 4,
+          "IconPhrase": "Intermittent clouds",
+          "HasPrecipitation": true,
+          "PrecipitationType": "Rain",
+          "PrecipitationIntensity": "Light"
+        },
+        "Night": {
+          "Icon": 40,
+          "IconPhrase": "Mostly cloudy w/ showers",
+          "HasPrecipitation": true,
+          "PrecipitationType": "Rain",
+          "PrecipitationIntensity": "Light"
+        },
+        "Sources": ["AccuWeather"],
+        "MobileLink": "http://m.accuweather.com/en/id/telanaipura/3431644/daily-weather-forecast/3431644?day=3&lang=en-us",
+        "Link": "http://www.accuweather.com/en/id/telanaipura/3431644/daily-weather-forecast/3431644?day=3&lang=en-us"
+      },
+      {
+        "Date": "2019-12-02T07:00:00+07:00",
+        "EpochDate": 1575244800,
+        "Temperature": {
+          "Minimum": {
+            "Value": 74,
+            "Unit": "F",
+            "UnitType": 18
+          },
+          "Maximum": {
+            "Value": 90,
+            "Unit": "F",
+            "UnitType": 18
+          }
+        },
+        "Day": {
+          "Icon": 15,
+          "IconPhrase": "Thunderstorms",
+          "HasPrecipitation": true,
+          "PrecipitationType": "Rain",
+          "PrecipitationIntensity": "Heavy"
+        },
+        "Night": {
+          "Icon": 42,
+          "IconPhrase": "Mostly cloudy w/ t-storms",
+          "HasPrecipitation": true,
+          "PrecipitationType": "Rain",
+          "PrecipitationIntensity": "Light"
+        },
+        "Sources": ["AccuWeather"],
+        "MobileLink": "http://m.accuweather.com/en/id/telanaipura/3431644/daily-weather-forecast/3431644?day=4&lang=en-us",
+        "Link": "http://www.accuweather.com/en/id/telanaipura/3431644/daily-weather-forecast/3431644?day=4&lang=en-us"
+      },
+      {
+        "Date": "2019-12-03T07:00:00+07:00",
+        "EpochDate": 1575331200,
+        "Temperature": {
+          "Minimum": {
+            "Value": 75,
+            "Unit": "F",
+            "UnitType": 18
+          },
+          "Maximum": {
+            "Value": 85,
+            "Unit": "F",
+            "UnitType": 18
+          }
+        },
+        "Day": {
+          "Icon": 7,
+          "IconPhrase": "Cloudy",
+          "HasPrecipitation": true,
+          "PrecipitationType": "Rain",
+          "PrecipitationIntensity": "Moderate"
+        },
+        "Night": {
+          "Icon": 38,
+          "IconPhrase": "Mostly cloudy",
+          "HasPrecipitation": false
+        },
+        "Sources": ["AccuWeather"],
+        "MobileLink": "http://m.accuweather.com/en/id/telanaipura/3431644/daily-weather-forecast/3431644?day=5&lang=en-us",
+        "Link": "http://www.accuweather.com/en/id/telanaipura/3431644/daily-weather-forecast/3431644?day=5&lang=en-us"
+      }
+    ]
+  },
+  "autoComplite": [
+    {
+      "Version": 1,
+      "Key": "226396",
+      "Type": "City",
+      "Rank": 10,
+      "LocalizedName": "Tokyo",
+      "Country": {
+        "ID": "JP",
+        "LocalizedName": "Japan"
+      },
+      "AdministrativeArea": {
+        "ID": "13",
+        "LocalizedName": "Tokyo"
+      }
+    },
+    {
+      "Version": 1,
+      "Key": "106770",
+      "Type": "City",
+      "Rank": 11,
+      "LocalizedName": "Taiyuan",
+      "Country": {
+        "ID": "CN",
+        "LocalizedName": "China"
+      },
+      "AdministrativeArea": {
+        "ID": "SX",
+        "LocalizedName": "Shanxi"
+      }
+    },
+    {
+      "Version": 1,
+      "Key": "106780",
+      "Type": "City",
+      "Rank": 11,
+      "LocalizedName": "Tianjin",
+      "Country": {
+        "ID": "CN",
+        "LocalizedName": "China"
+      },
+      "AdministrativeArea": {
+        "ID": "TJ",
+        "LocalizedName": "Tianjin"
+      }
+    },
+    {
+      "Version": 1,
+      "Key": "58491",
+      "Type": "City",
+      "Rank": 13,
+      "LocalizedName": "Tongren",
+      "Country": {
+        "ID": "CN",
+        "LocalizedName": "China"
+      },
+      "AdministrativeArea": {
+        "ID": "GZ",
+        "LocalizedName": "Guizhou"
+      }
+    },
+    {
+      "Version": 1,
+      "Key": "102324",
+      "Type": "City",
+      "Rank": 13,
+      "LocalizedName": "Tangshan",
+      "Country": {
+        "ID": "CN",
+        "LocalizedName": "China"
+      },
+      "AdministrativeArea": {
+        "ID": "HE",
+        "LocalizedName": "Hebei"
+      }
+    },
+    {
+      "Version": 1,
+      "Key": "59573",
+      "Type": "City",
+      "Rank": 13,
+      "LocalizedName": "Taizhou",
+      "Country": {
+        "ID": "CN",
+        "LocalizedName": "China"
+      },
+      "AdministrativeArea": {
+        "ID": "JS",
+        "LocalizedName": "Jiangsu"
+      }
+    },
+    {
+      "Version": 1,
+      "Key": "60198",
+      "Type": "City",
+      "Rank": 13,
+      "LocalizedName": "Tongliao",
+      "Country": {
+        "ID": "CN",
+        "LocalizedName": "China"
+      },
+      "AdministrativeArea": {
+        "ID": "NM",
+        "LocalizedName": "Inner Mongolia"
+      }
+    },
+    {
+      "Version": 1,
+      "Key": "106571",
+      "Type": "City",
+      "Rank": 13,
+      "LocalizedName": "Tai'an",
+      "Country": {
+        "ID": "CN",
+        "LocalizedName": "China"
+      },
+      "AdministrativeArea": {
+        "ID": "SD",
+        "LocalizedName": "Shandong"
+      }
+    },
+    {
+      "Version": 1,
+      "Key": "58055",
+      "Type": "City",
+      "Rank": 15,
+      "LocalizedName": "Tianshui",
+      "Country": {
+        "ID": "CN",
+        "LocalizedName": "China"
+      },
+      "AdministrativeArea": {
+        "ID": "GS",
+        "LocalizedName": "Gansu"
+      }
+    },
+    {
+      "Version": 1,
+      "Key": "2333653",
+      "Type": "City",
+      "Rank": 15,
+      "LocalizedName": "Taizhou",
+      "Country": {
+        "ID": "CN",
+        "LocalizedName": "China"
+      },
+      "AdministrativeArea": {
+        "ID": "ZJ",
+        "LocalizedName": "Zhejiang"
+      }
+    }
+  ],
+  "tokyoForcast": {
+    "Headline": {
+      "EffectiveDate": "2019-12-02T13:00:00+09:00",
+      "EffectiveEpochDate": 1575259200,
+      "Severity": 2,
+      "Text": "Rain, some heavy, to affect the area Monday afternoon",
+      "Category": "rain",
+      "EndDate": "2019-12-02T19:00:00+09:00",
+      "EndEpochDate": 1575280800,
+      "MobileLink": "http://m.accuweather.com/en/jp/tokyo/226396/extended-weather-forecast/226396?lang=en-us",
+      "Link": "http://www.accuweather.com/en/jp/tokyo/226396/daily-weather-forecast/226396?lang=en-us"
+    },
+    "DailyForecasts": [
+      {
+        "Date": "2019-11-29T07:00:00+09:00",
+        "EpochDate": 1574978400,
+        "Temperature": {
+          "Minimum": {
+            "Value": 38,
+            "Unit": "F",
+            "UnitType": 18
+          },
+          "Maximum": {
+            "Value": 49,
+            "Unit": "F",
+            "UnitType": 18
+          }
+        },
+        "Day": {
+          "Icon": 1,
+          "IconPhrase": "Sunny",
+          "HasPrecipitation": false
+        },
+        "Night": {
+          "Icon": 33,
+          "IconPhrase": "Clear",
+          "HasPrecipitation": false
+        },
+        "Sources": ["AccuWeather"],
+        "MobileLink": "http://m.accuweather.com/en/jp/tokyo/226396/daily-weather-forecast/226396?lang=en-us",
+        "Link": "http://www.accuweather.com/en/jp/tokyo/226396/daily-weather-forecast/226396?lang=en-us"
+      },
+      {
+        "Date": "2019-11-30T07:00:00+09:00",
+        "EpochDate": 1575064800,
+        "Temperature": {
+          "Minimum": {
+            "Value": 39,
+            "Unit": "F",
+            "UnitType": 18
+          },
+          "Maximum": {
+            "Value": 52,
+            "Unit": "F",
+            "UnitType": 18
+          }
+        },
+        "Day": {
+          "Icon": 1,
+          "IconPhrase": "Sunny",
+          "HasPrecipitation": false
+        },
+        "Night": {
+          "Icon": 40,
+          "IconPhrase": "Mostly cloudy w/ showers",
+          "HasPrecipitation": true,
+          "PrecipitationType": "Rain",
+          "PrecipitationIntensity": "Light"
+        },
+        "Sources": ["AccuWeather"],
+        "MobileLink": "http://m.accuweather.com/en/jp/tokyo/226396/daily-weather-forecast/226396?day=1&lang=en-us",
+        "Link": "http://www.accuweather.com/en/jp/tokyo/226396/daily-weather-forecast/226396?day=1&lang=en-us"
+      },
+      {
+        "Date": "2019-12-01T07:00:00+09:00",
+        "EpochDate": 1575151200,
+        "Temperature": {
+          "Minimum": {
+            "Value": 44,
+            "Unit": "F",
+            "UnitType": 18
+          },
+          "Maximum": {
+            "Value": 57,
+            "Unit": "F",
+            "UnitType": 18
+          }
+        },
+        "Day": {
+          "Icon": 4,
+          "IconPhrase": "Intermittent clouds",
+          "HasPrecipitation": false
+        },
+        "Night": {
+          "Icon": 36,
+          "IconPhrase": "Intermittent clouds",
+          "HasPrecipitation": false
+        },
+        "Sources": ["AccuWeather"],
+        "MobileLink": "http://m.accuweather.com/en/jp/tokyo/226396/daily-weather-forecast/226396?day=2&lang=en-us",
+        "Link": "http://www.accuweather.com/en/jp/tokyo/226396/daily-weather-forecast/226396?day=2&lang=en-us"
+      },
+      {
+        "Date": "2019-12-02T07:00:00+09:00",
+        "EpochDate": 1575237600,
+        "Temperature": {
+          "Minimum": {
+            "Value": 50,
+            "Unit": "F",
+            "UnitType": 18
+          },
+          "Maximum": {
+            "Value": 63,
+            "Unit": "F",
+            "UnitType": 18
+          }
+        },
+        "Day": {
+          "Icon": 18,
+          "IconPhrase": "Rain",
+          "HasPrecipitation": true,
+          "PrecipitationType": "Rain",
+          "PrecipitationIntensity": "Heavy"
+        },
+        "Night": {
+          "Icon": 12,
+          "IconPhrase": "Showers",
+          "HasPrecipitation": true,
+          "PrecipitationType": "Rain",
+          "PrecipitationIntensity": "Light"
+        },
+        "Sources": ["AccuWeather"],
+        "MobileLink": "http://m.accuweather.com/en/jp/tokyo/226396/daily-weather-forecast/226396?day=3&lang=en-us",
+        "Link": "http://www.accuweather.com/en/jp/tokyo/226396/daily-weather-forecast/226396?day=3&lang=en-us"
+      },
+      {
+        "Date": "2019-12-03T07:00:00+09:00",
+        "EpochDate": 1575324000,
+        "Temperature": {
+          "Minimum": {
+            "Value": 46,
+            "Unit": "F",
+            "UnitType": 18
+          },
+          "Maximum": {
+            "Value": 57,
+            "Unit": "F",
+            "UnitType": 18
+          }
+        },
+        "Day": {
+          "Icon": 6,
+          "IconPhrase": "Mostly cloudy",
+          "HasPrecipitation": true,
+          "PrecipitationType": "Rain",
+          "PrecipitationIntensity": "Light"
+        },
+        "Night": {
+          "Icon": 36,
+          "IconPhrase": "Intermittent clouds",
+          "HasPrecipitation": false
+        },
+        "Sources": ["AccuWeather"],
+        "MobileLink": "http://m.accuweather.com/en/jp/tokyo/226396/daily-weather-forecast/226396?day=4&lang=en-us",
+        "Link": "http://www.accuweather.com/en/jp/tokyo/226396/daily-weather-forecast/226396?day=4&lang=en-us"
+      }
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+<div class="nav-container">
+  <mat-toolbar class="toolbar-color">
+    <mat-toolbar-row>
+      <button
+        mat-icon-button
+        (click)="sidenav.toggle()"
+        fxShow="true"
+        fxHide.gt-sm
+      >
+        <mat-icon>menu</mat-icon>
+      </button>
+      <span>Weather App</span>
+      <span class="menu-spacer"></span>
+      <div fxShow="true" fxHide.lt-md>
+        <a
+          class="font-link"
+          routerLink="/weather"
+          mat-button
+          routerLinkActive="active"
+          >Weather</a
+        >
+        <a
+          class="font-link"
+          routerLink="/favorites"
+          mat-button
+          routerLinkActive="active"
+          >Favorites</a
+        >
+      </div>
+    </mat-toolbar-row>
+  </mat-toolbar>
+
+  <mat-sidenav-container fxFlexFill>
+    <mat-sidenav #sidenav>
+      <mat-nav-list>
+        <a (click)="sidenav.toggle()" href="" mat-list-item>Close</a>
+        <a routerLink="/weather" mat-button routerLinkActive="active"
+          >Weather</a
+        >
+        <a routerLink="/favorites" mat-button routerLinkActive="active"
+          >Favorites</a
+        >
+      </mat-nav-list>
+    </mat-sidenav>
+    <mat-sidenav-content fxFlexFill
+      ><router-outlet></router-outlet
+    ></mat-sidenav-content>
+  </mat-sidenav-container>
+</div>

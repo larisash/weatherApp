@@ -1,0 +1,20 @@
+.main-container {
+  border: 5px solid #9dd8c8;
+  border-radius: 5px;
+  font-family: "Alegreya Sans", sans-serif;
+  background: #ffdede;
+  height: 100%;
+}
+.content-container {
+  height: 80%;
+}
+footer {
+  height: 20%;
+  font-size: 0.8rem;
+  letter-spacing: 0.07em;
+  line-height: 2;
+  padding: 2% 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}

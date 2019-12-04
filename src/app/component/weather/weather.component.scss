@@ -1,0 +1,73 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0 10%;
+  background: #ffdede;
+}
+.secondery-container {
+  background: #ffe8cf;
+  padding: 3%;
+  height: 100%;
+}
+.content-container {
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 40%;
+}
+.card {
+  max-width: 400px;
+  margin: 10px;
+}
+.card-choosen-city {
+  height: 70px;
+  margin: 10px 0;
+  // width: 40px;
+}
+
+.header-image {
+  background-image: url("https://material.angular.io/assets/img/examples/shiba1.jpg");
+  background-size: cover;
+}
+.example-form {
+  min-width: 150px;
+  // max-width: 500px;
+  width: 100%;
+  display: flex;
+}
+
+.full-width {
+  width: 20%;
+}
+.container-row {
+  display: flex;
+  justify-content: space-between;
+  // display: inline-block;
+  // background: #9dd8c8;
+  background: #ffe8cf;
+  width: 100%;
+}
+.btn-favorites {
+  margin: 0 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background: #9dd8c8;
+  font-weight: 900;
+}
+.btn-favorites-container {
+}
+h1 {
+  color: #9dd8c8 !important;
+}
+.center {
+  justify-content: center;
+}
+.mat-fab.mat-accent {
+  background: grey !important;
+}
+.mat-fab.mat-accent.choosen {
+  background: fuchsia !important;
+}

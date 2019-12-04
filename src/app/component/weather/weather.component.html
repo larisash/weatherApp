@@ -1,0 +1,91 @@
+<div class="main-container">
+  <div class="secondery-container">
+    <form class="example-form">
+      <div class="container-row">
+        <mat-form-field class="full-width">
+          <input
+            #input
+            type="text"
+            placeholder="Pick A Place"
+            aria-label="Number"
+            matInput
+            [(ngModel)]="selectedCity"
+            [ngModelOptions]="{ standalone: true }"
+            [matAutocomplete]="auto"
+            (keyup)="getOptions(input.value)"
+          />
+          <mat-autocomplete
+            autoActiveFirstOption
+            #auto="matAutocomplete"
+            (optionSelected)="getCity($event.option.value)"
+          >
+            <mat-option
+              *ngFor="let city of citiesOptions"
+              [value]="{ name: city.LocalizedName, key: city.Key }"
+            >
+              {{ city.LocalizedName }}
+            </mat-option>
+          </mat-autocomplete>
+        </mat-form-field>
+
+        <div class="btn-favorites-container">
+          <button
+            mat-stroked-button
+            color="accent"
+            class="btn-favorites"
+            (click)="addToFavorites()"
+            [disabled]="choosenCity"
+          >
+            Add To Favorites
+          </button>
+          <button
+            mat-fab
+            aria-label="Example icon-button with a heart icon"
+            [ngClass]="{ choosen: choosenCity }"
+          >
+            <mat-icon>favorite</mat-icon>
+          </button>
+        </div>
+      </div>
+    </form>
+    <div class="content-container">
+      <div class="card-container">
+        <mat-card class="card card-choosen-city " *ngIf="currentForcast">
+          <mat-card-header>
+            <mat-card-subtitle
+              ><h1>{{ selectedCity }}</h1>
+            </mat-card-subtitle>
+          </mat-card-header>
+        </mat-card>
+      </div>
+
+      <div class="card-container center">
+        <mat-card *ngFor="let dayForcast of currentForcast" class="card">
+          <mat-card-header>
+            <mat-card-title>{{ dayForcast.Date | date }}</mat-card-title>
+            <mat-card-subtitle
+              >{{ dayForcast.Temperature.Minimum.Value }} -
+              {{ dayForcast.Temperature.Maximum.Value }}
+              <span>
+                {{ dayForcast.Temperature.Minimum.Unit }}
+              </span></mat-card-subtitle
+            >
+          </mat-card-header>
+
+          <img
+            mat-card-image
+            [src]="
+              'https://developer.accuweather.com/sites/default/files/' +
+              (dayForcast.Day.Icon < 10
+                ? '0' + dayForcast.Day.Icon
+                : dayForcast.Day.Icon) +
+              '-s.png'
+            "
+            alt="Photo of a Shiba Inu"
+          />
+          <mat-card-content> </mat-card-content>
+        </mat-card>
+      </div>
+    </div>
+  </div>
+</div>

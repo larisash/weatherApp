@@ -1,0 +1,29 @@
+<div class="main-container">
+  <div class="card-container center">
+    <mat-card *ngFor="let city of currentFavoriteCities" class="card">
+      <mat-card-header>
+        <mat-card-title class="title">{{ city.cityName }}</mat-card-title>
+        <mat-card-subtitle class="sub-title"
+          >{{ city.forcast.Temperature.Minimum.Value }} -
+          {{ city.forcast.Temperature.Maximum.Value }}
+          <span>
+            {{ city.forcast.Temperature.Minimum.Unit }}
+          </span></mat-card-subtitle
+        >
+      </mat-card-header>
+
+      <img
+        mat-card-image
+        [src]="
+          'https://developer.accuweather.com/sites/default/files/' +
+          (city.forcast.Day.Icon < 10
+            ? '0' + city.forcast.Day.Icon
+            : city.forcast.Day.Icon) +
+          '-s.png'
+        "
+        alt="Photo of a Shiba Inu"
+      />
+      <mat-card-content> </mat-card-content>
+    </mat-card>
+  </div>
+</div>
